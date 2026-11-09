@@ -1,0 +1,13 @@
+Regime,Strategy,Dataset,R@20,N@20
+Reference Upper Bound,single,yelp,0.0787,0.0576
+Multi-Task Control,fixed_weights,yelp,0.0774,0.0569
+Multi-Task Control,gradnorm,yelp,0.0496,0.0365
+Multi-Task Control,pcgrad,yelp,0.0782,0.0575
+Multi-Task Control,mgda,yelp,0.0782,0.0574
+Multi-Task Control,meta,yelp,0.0776,0.0574
+Reference Upper Bound,single,amazon,0.0389,0.0293
+Multi-Task Control,fixed_weights,amazon,0.0381,0.0287
+Multi-Task Control,gradnorm,amazon,NA,NA
+Multi-Task Control,pcgrad,amazon,0.0386,0.0292
+Multi-Task Control,mgda,amazon,0.0380,0.0289
+Multi-Task Control,meta,amazon,0.0345,0.0264
