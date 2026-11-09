@@ -832,7 +832,7 @@ def make_figS1(kappa_crit=None, n_init=10):
     fig.tight_layout(rect=[0, 0, 1, 0.96])
 
     out = os.path.join(OUT_DIR, "figS1_bifurcation_mle.png")
-    fig.savefig(out, dpi=200)
+    fig.savefig(out, dpi=300)
     plt.close(fig)
     print(f"  saved: {out}", flush=True)
 
